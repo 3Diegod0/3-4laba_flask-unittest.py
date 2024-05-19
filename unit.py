@@ -1,6 +1,6 @@
 import unittest
-from flask2 import app
-from flask2 import get_exchange_rate
+from app import app
+from app import get_exchange_rate
 
 
 class TestFlaskApp(unittest.TestCase):
