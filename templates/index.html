@@ -70,7 +70,9 @@
             <input type="submit" value="Конвертировать">
 
         </form>
-        {% if result %}
+        {% if error %}
+            <h2 style="color: red;">{{ error }}</h2>
+        {% elif result %}
             <h2 class="result">{{ result }}</h2>
         {% endif %}
 </body>
